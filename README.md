@@ -53,8 +53,31 @@ public class Hello {
     }
 }
 ```
+Type Casting:
+Assign a value of one primitive data type to another type.
 
+**Widening Casting (automatically) -** converting a smaller type to a larger type size
+```java 
+byte -> short -> char -> int -> long -> float -> double 
+```
 
+**Narrowing Casting (manually) -** converting a larger type to a smaller size type
+```java 
+double -> float -> long -> int -> char -> short -> byte 
+```
+```java
+public class Hello {
+    public static void main(String[] args) {
+        int age = 30;
+        double age2 = (double) age;
+        System.out.println(age2); // 30.0 auto converted from int to double (smaller to larger)
+
+        double code = 20.99;
+        int code2 = (int) code;
+        System.out.println(code2); // 20 manually converted from double to int (larger to smaller)
+    }
+}
+```
 
 
 
