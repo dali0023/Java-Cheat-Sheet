@@ -19,7 +19,7 @@ Details: https://www.javatpoint.com/features-of-java
 ## Data Types:
 Data types specify the different sizes and values that can be stored in the variable. There are two types of data types in Java:
 
-**Primitive data types: **
+**Primitive data types:**
 ```java
 byte myNum = 5;
 short myNum = 10;
