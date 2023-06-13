@@ -15,8 +15,8 @@
 Details: https://www.javatpoint.com/features-of-java
 
 
-## Simple Java:
-Data Types:
+# Simple Java:
+## Data Types:
 Data types specify the different sizes and values that can be stored in the variable. There are two types of data types in Java:
 
 **Primitive data types: **
