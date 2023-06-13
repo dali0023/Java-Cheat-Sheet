@@ -53,7 +53,7 @@ public class Hello {
     }
 }
 ```
-Type Casting:
+## Type Casting:
 Assign a value of one primitive data type to another type.
 
 **Widening Casting (automatically) -** converting a smaller type to a larger type size
