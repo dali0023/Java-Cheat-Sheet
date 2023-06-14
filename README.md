@@ -31,10 +31,10 @@ boolean myBool = true;
 String myText = "Hello";
 final int myNum = 15; // unchangeable and read-only
 ```
-**Non-primitive/ Reference/ Object Data Types:** The non-primitive data types include Classes, Interfaces, and Arrays.
+**Non-primitive/ Reference/ Object Data Types:** Classes, Interfaces, and Arrays.
 
 **There are three kinds of variables in Java**
-1. **Local variables -** declared in methods, constructors, or blocks.
+1. **Local variables -** declared inside methods, constructors, or blocks.
 3. **Instance / Non-Instance variables -** Ideclared in a class, but outside a method, constructor or any block.
 4. **Class/Static variables -** Class variables also known as static variables are declared with the static keyword in a class, but outside a method, constructor or a block.
 ```java
@@ -54,7 +54,7 @@ public class Hello {
 }
 ```
 ## Type Casting:
-Assign a value of one primitive data type to another type.
+Convert one data type to another type.
 
 **Widening Casting (automatically) -** converting a smaller type to a larger type size
 ```java 
@@ -79,7 +79,22 @@ public class Hello {
 }
 ```
 
+## User Input:
 
+```java
+// Using BufferReader
+BufferedReader reader = new BufferedReader(new
+InputStreamReader(System.in));
+String name = reader.readLine();
+
+// Using Scanner
+Scanner in = new Scanner(System.in);
+String s = in.nextLine();
+int a = in.nextInt();
+
+// Using Console
+String name = System.console().readLine();
+```
 
 
 
