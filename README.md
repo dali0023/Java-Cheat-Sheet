@@ -191,7 +191,13 @@ public class Hello {
     }
 }
 ```
-
+**Enhanced For Loop:** Used to loop around array's or List's
+```java
+int[] numbers = { 1, 2, 3, 4, 5 };
+for (int number : numbers) {
+    System.out.print(number); // 12345
+}
+```
 
 
 
