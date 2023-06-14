@@ -160,11 +160,20 @@ public class Hello {
             System.out.println(i); // 0123456789
         }
         
-        // Odd Number
-        for (int i = 1; i < 10; i++) {
-            if (i % 2 == 1) {
-                System.out.println(i); // 1 3 5 7 9
+        // Break Statement
+         for (int i = 0; i < 10; i++) {
+            if (i == 2) {
+                break; // stop all from i = 2
             }
+            System.out.println(i); // 0 1
+        }
+
+        // Continue Statement
+        for (int i = 0; i < 5; i++) {
+            if (i == 2) {
+                continue; // skip when i = 2
+            }
+            System.out.println(i); // 0 1 3 4
         }
     }
 }
@@ -182,7 +191,6 @@ public class Hello {
     }
 }
 ```
-
 
 
 
