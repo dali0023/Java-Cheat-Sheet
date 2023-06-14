@@ -142,7 +142,7 @@ public class Hello {
                 System.out.println("January");
                 break;
             case 2:
-                System.out.println("February");
+                System.out.println("February"); // February
                 break;
             default:
                 System.out.println("Some other month");
