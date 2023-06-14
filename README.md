@@ -124,23 +124,13 @@ public class Hello {
         } else {
             System.out.println("I also don't");
         }
-
-        // Java Short Hand If...Else (Ternary Operator)
-        // variable = (condition) ? expressionTrue : expressionFalse;
-        String result = (x > 18) ? "Good day." : "Good evening.";
-        System.out.println(result);
     }
 }
 ```
 **Short Hand If...Else (Ternary Operator):**
 ```java 
-public class Hello {
-    public static void main(String[] args) {        
-        // variable = (condition) ? expressionTrue : expressionFalse;
         String result = (x > 18) ? "Good day." : "Good evening.";
         System.out.println(result);
-    }
-}
 ```
 
 
