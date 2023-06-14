@@ -116,11 +116,14 @@ String name = System.console().readLine();
 public class Hello {
     public static void main(String[] args) {
         // Java If ... Else
-        int x = 20;
-        if (x > 18) {
-            System.out.println("20 is greater than 18");
+        int j = 10;
+
+        if (j == 10) {
+            System.out.println("I get printed");
+        } else if (j > 10) {
+            System.out.println("I don't");
         } else {
-            System.out.println("smaller than 18"); // 7
+            System.out.println("I also don't");
         }
 
         // Java Short Hand If...Else (Ternary Operator)
