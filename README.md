@@ -56,12 +56,12 @@ public class Hello {
 ## Type Casting:
 Convert one data type to another type.
 
-**Widening Casting (automatically) -** converting a smaller type to a larger type size
+**Implicit casting/ Widening Casting (automatically) -** converting a smaller type to a larger type size
 ```java 
 byte -> short -> char -> int -> long -> float -> double 
 ```
 
-**Narrowing Casting (manually) -** converting a larger type to a smaller size type
+**Explicit type casting/ Narrowing Casting (manually) -** converting a larger type to a smaller size type
 ```java 
 double -> float -> long -> int -> char -> short -> byte 
 ```
@@ -75,6 +75,22 @@ public class Hello {
         double code = 20.99;
         int code2 = (int) code;
         System.out.println(code2); // 20 manually converted from double to int (larger to smaller)
+    }
+}
+```
+### Java wrapper class:
+`intValue(), byteValue(), shortValue(), longValue(), floatValue(), doubleValue(), charValue(), booleanValue().
+toString()`
+```java
+public class Hello {
+    public static void main(String[] args) {
+        Integer myInt = 5;
+        Double myDouble = 7.99;
+        String myString = myInt.toString(); // convert other type to string
+
+        System.out.println(myInt.doubleValue()); // 5.0
+        System.out.println(myDouble.intValue()); // 7
+
     }
 }
 ```
