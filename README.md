@@ -112,12 +112,11 @@ String name = System.console().readLine();
 ```
 
 ## Conditional Statement:
+**Java If ... Else:**
 ```java 
 public class Hello {
     public static void main(String[] args) {
-        // Java If ... Else
         int j = 10;
-
         if (j == 10) {
             System.out.println("I get printed");
         } else if (j > 10) {
