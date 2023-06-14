@@ -132,6 +132,31 @@ public class Hello {
         String result = (x > 18) ? "Good day." : "Good evening.";
         System.out.println(result);
 ```
+**Switch Statement:**
+```java
+public class Hello {
+    public static void main(String[] args) {
+        int month = 2;
+        String str;
+        switch (month) {
+            case 1:
+                str = "January";
+                break;
+            case 2:
+                str = "February";
+                break;
+            default:
+                str = "Some other month";
+                break;
+        }
+
+        System.out.println("Result- " + str); // Outputs: Result March
+    }
+}
+```
+
+
+
 
 
 
