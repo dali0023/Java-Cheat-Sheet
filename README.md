@@ -83,8 +83,7 @@ public class Hello {
 
 ```java
 // Using BufferReader
-BufferedReader reader = new BufferedReader(new
-InputStreamReader(System.in));
+BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 String name = reader.readLine();
 
 // Using Scanner
