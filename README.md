@@ -111,7 +111,25 @@ int a = in.nextInt();
 String name = System.console().readLine();
 ```
 
+## Conditional Statement:
+```java 
+public class Hello {
+    public static void main(String[] args) {
+        // Java If ... Else
+        int x = 20;
+        if (x > 18) {
+            System.out.println("20 is greater than 18");
+        } else {
+            System.out.println("smaller than 18"); // 7
+        }
 
+        // Java Short Hand If...Else (Ternary Operator)
+        // variable = (condition) ? expressionTrue : expressionFalse;
+        String result = (x > 18) ? "Good day." : "Good evening.";
+        System.out.println(result);
+    }
+}
+```
 
 
 
