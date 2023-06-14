@@ -35,7 +35,7 @@ final int myNum = 15; // unchangeable and read-only
 
 **There are three kinds of variables in Java**
 1. **Local variables -** declared inside methods, constructors, or blocks.
-3. **Instance / Non-Instance variables -** Ideclared in a class, but outside a method, constructor or any block.
+3. **Instance / Non-Static variables/ Global -** Ideclared in a class, but outside a method, constructor or any block.
 4. **Class/Static variables -** Class variables also known as static variables are declared with the static keyword in a class, but outside a method, constructor or a block.
 ```java
 public class Hello {
@@ -193,7 +193,25 @@ for (int number : numbers) {
     System.out.print(number); // 12345
 }
 ```
+## Java Arrays:
+```java 
+dataType[] numbers;
+int[] a1;
+int[] a2 = {1, 2, 3};
+int[] a3 = new int[]{1, 2, 3};
+int[] a4 = new int[3]; // set size
+String[] cars = { "Honda", "BMW", "Ford"};
+```
+```java
+int[] arr = new int [5];
+for (int a = 0; a < arr.length; a++){
+    arr[a] = a; // Store to array
+}
 
+for (int arr2 : arr) {
+    System.out.print(arr2 + " "); // 0 1 2 3 4 
+}
+```
 
 
 
