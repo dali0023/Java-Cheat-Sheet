@@ -152,22 +152,29 @@ public class Hello {
 }
 ```
 ## Java Loops:
+**For Loop:**
 ```java
 public class Hello {
     public static void main(String[] args) {
         for (int i = 1; i < 10; i++) {
-            System.out.println(i);
+            System.out.println(i); // 0123456789
         }
         
         // Odd Number
         for (int i = 1; i < 10; i++) {
             if (i % 2 == 1) {
-                System.out.println(i);
+                System.out.println(i); // 1 3 5 7 9
             }
         }
     }
 }
 ```
+**While Loop:**
+
+
+
+
+
 
 
 
